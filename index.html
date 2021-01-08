@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my dashboard</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script
+      src="https://kit.fontawesome.com/31a989a7bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      html,
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        font-family: "Raleway", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="body">
+    <div class="header-div">
+      <button class="menu-button" onclick="sg_open();">
+        <i class="fa fa-bars"></i>
+        &nbsp;menu
+      </button>
+      <span class="logo-span">Logo</span>
+    </div>
+    <div class="first-container">
+      <div class="container-div-1">
+        <div class="menu-bar-div">
+          <div class="img-div">
+            <img src="img/avatar2.png" class="font-image" />
+          </div>
+          <div class="ancor-div">
+            <i class="fa-fa-envelope"></i>
+            <span>Welcome, <strong>Mike</strong></span
+            ><br />
+            <a href="#" class="button-a"><i class="fas fa-envelope"></i></a>
+            <a href="#" class="button-a"><i class="fas fa-user"></i></a>
+            <a href="#" class="button-a"><i class="fas fa-cog"></i></a>
+          </div>
+        </div>
+
+        <hr />
+        <div class="w-container">
+          <h5>Dashboard</h5>
+        </div>
+        <div class="list-div">
+          <a href="#" class="list-a" onclick="w3_close()" title="close menu"
+            ><i class="A-btn"></i>&nbsp; Close Menu</a
+          >
+          <a href="#" class="lis-a-2"><i class="fa fa-users fa-fw"></i></i>&nbsp; Overview</a>
+          <a href="#" class="ancor-list"><i class="fa fa-eye fa-fw"></i></i>&nbsp; Views</a>
+          <a href="#" class="ancor-list"><i class="fa fa-users fa-fw"></i></i>&nbsp; Traffic</a>
+          <a href="#" class="ancor-list"><i class="fa fa-bullseye fa-fw"></i></i>&nbsp; Geo</a>
+          <a href="#" class="ancor-list"><i class="fa fa-diamond fa-fw"></i></i>&nbsp; Orders</a>
+          <a href="#" class="ancor-list"><i class="fa fa-bell fa-fw"></i></i>&nbsp; News</a>
+          <a href="#" class="ancor-list"><i class="fa fa-bank fa-fw"></i></i>&nbsp; General</a>
+          <a href="#" class="ancor-list"><i class="fa fa-history fa-fw"></i></i>&nbsp; History</a>
+          <a href="#" class="ancor-list"><i class="fa fa-cog fa-fw"></i></i>&nbsp; Settings</a
+          ><br /><br />
+        </div>
+      </div>
+      <div class="container-div-2">
+        <header class="container-2-header" style="padding-top:22px">
+          <h5><b><i class="fa fa-dashboard"></i> My Dashboard</b></h5>
+        </header>
+      
+      <div class="detail-div">
+        <div class="detail-container">
+          <div class="detail-red-box">
+            <div class="left-div"><i class="fa fa-comment xxxlarge"></i></div>
+            <div class="right-div">
+              <h3>52</h3>
+            </div>
+            <div class="clear-div"></div>
+            <h4 class="h4-class">Messages</h4>
+          </div>
+        </div>
+        <div class="detail-container">
+          <div class="detail-blue-box">
+            <div class="left-div"><i class="fa fa-eye xxxlarge"></i></div>
+            <div class="right-div">
+              <h3>99</h3>
+            </div>
+            <div class="clear-div"></div>
+            <h4 class="h4-class">Views</h4>
+          </div>
+        </div>
+        <div class="detail-container">
+          <div class="detail-green-box">
+            <div class="left-div"><i class="fa fa-share-alt xxxlarge"></i></div>
+            <div class="right-div">
+              <h3>23</h3>
+            </div>
+            <div class="clear-div"></div>
+            <h4 class="h4-class">Shares</h4>
+          </div>
+        </div>
+        <div class="detail-container">
+          <div class=" detail-orange-box">
+            <div class="left-div"><i class="fa fa-users xxxlarge"></i></div>
+            <div class="right-div">
+              <h3>50</h3>
+            </div>
+            <div class="clear-div"></div>
+            <h4 class="h4-class">Users</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-panel-div">
+      <div class="map-img-div">
+        <!-- <h5 class="region">Regions</h5> -->
+        <div class="image-div">
+          <h5 class="region">Regions</h5>
+          <img class="src-img" src="img/region.jpg"  alt="Google Regional Map">
+        </div>
+      </div>
+      <div class="third-container-div">
+        <h5>Feeds</h5>
+        <table class="table-class">
+          
+          <tbody>
+            <tr class="tr-div">
+            <td class="td-class">
+              <i class="fa fa-user blue-class "></i></td>
+            <td class="record-class-1">New record, over 90 views.</td>
+            <td class="record-class-1"><i>10 mins</i></td>
+          </tr >
+          <tr class="tr-div">
+            <td class="td-class-1"><i class="fa fa-bell  red-class"></i></td>
+            <td class="record-class-2">Database error.</td>
+            <td class="record-class-2"><i>15 mins</i></td>
+          </tr >
+          <tr class="tr-div">
+            <td class="td-class-2"><i class="fa fa-users yellow-class"></i></td>
+            <td class="record-class-3">New record, over 40 users.</td>
+            <td class="record-class-3"><i>17 mins</i></td>
+          </tr >
+          <tr class="tr-div">
+            <td class="td-class-3"><i class="fa fa-comment red-class"></i></td>
+            <td class="record-class-4">New comments.</td>
+            <td class="record-class-4"><i>25 mins</i></td>
+          </tr >
+          <tr class="tr-div">
+            <td class="td-class-4"><i class="fa fa-bookmark blue-class"></i></td>
+            <td class="record-class-5">Check transactions.</td>
+            <td class="record-class-5"><i>28 mins</i></td>
+          </tr >
+          <tr class="tr-div">
+            <td class="td-class-5"><i class="fa fa-laptop red-class"></i></td>
+            <td class="record-class-6">CPU overload.</td>
+            <td class="record-class-6"><i>35 mins</i></td>
+          </tr >
+          <tr class="tr-div">
+            <td class="td-class-6"><i class="fa fa-share-alt green-class"></i></td>
+            <td class="record-class-7">New shares.</td>
+            <td class="record-class-7"><i>39 mins</i></td>
+          </tr >
+        </tbody>
+      </table> 
+      </div>
+    </div>
+    <div class="stats-container">
+      <h5>General Stats</h5>
+      <p>New Visitors</p>
+      <div class="user-div">
+        <div class="green-percent-div" style="width:25%">+25%</div>
+      </div>
+  
+      <p>New Users</p>
+      <div class="user-div">
+        <div class="orange-percent-div" style="width:50%">50%</div>
+      </div>
+  
+      <p>Bounce Rate</p>
+      <div class="user-div">
+        <div class="red-percent-div" style="width:75%">75%</div>
+      </div>
+    </div>
+    <div class="Countries-name">
+      <h5>Countries</h5>
+      <table class="tb-class">
+        <tbody>
+          <tr class="tr-name-1">
+          <td class=Countries-name-class>United States</td>
+          <td class="percent-class">65%</td>
+        </tr>
+        <tr class="tr-name-2">
+          <td class=Countries-name-class>UK</td>
+          <td class="percent-class">15.7%</td>
+        </tr>
+        <tr class="tr-name-1">
+          <td class=Countries-name-class>Russia</td>
+          <td class="percent-class">5.6%</td>
+        </tr>
+        <tr class="tr-name-2">
+          <td class=Countries-name-class>Spain</td>
+          <td class="percent-class">2.1%</td>
+        </tr>
+        <tr class="tr-name-1">
+          <td class=Countries-name-class>India</td>
+          <td class="percent-class">1.9%</td>
+        </tr>
+        <tr class="tr-name-2">
+          <td class=Countries-name-class>France</td>
+          <td class="percent-class">1.5%</td>
+        </tr>
+      </tbody> 
+    </table>
+      <br>
+      <button class="button-class">More Countries &nbsp;<i class="arrow-class"></i></button>
+    </div>
+    <div class="user-container">
+      <h5>Recent Users</h5>
+      <ul class="user-list">
+        <li class="Recent-li">
+          <img src="img/avatar2.png" class="list-image-class" style="width:35px">
+          <span class="name-span">Mike</span><br>
+        </li>
+        <li class="Recent-li">
+          <img src="img/avatar5.png" class="list-image-class" style="width:35px">
+          <span class="name-span">Jill</span><br>
+        </li>
+        <li class="Recent-li">
+          <img src="img/avatar6.png" class="list-image-class" style="width:35px">
+          <span class="name-span">Jane</span><br>
+        </li>
+      </ul>
+    </div>
+    <div class="user-comment-div">
+      <h3>Recent Comments</h3>
+      <div class="img-main-div">
+        <div class="icon-image">
+          <img class="circle" src="img/avatar3.png" >
+        </div>
+        <div class="text-container">
+          <h4>John <span class="opacity-h4 ">Sep 29, 2014, 9:12 PM</span></h4>
+          <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+        </div>
+      </div>
+  
+      <div class="img-main-div">
+        <div class="icon-image">
+          <img class="circle" src="img/avatar1.png">
+        </div>
+        <div class="text-container">
+          <h4>Bo <span class="opacity-h4 ">Sep 28, 2014, 10:15 PM</span></h4>
+          <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+        </div>
+      </div>
+    </div>
+    <div class="user-interview-container">
+      <div class="interview-row">
+        <div class="user-data-div">
+          <h5 class="border-bottombar-1">Demographic</h5>
+          <p>Language</p>
+          <p>Country</p>
+          <p>City</p>
+        </div>
+        <div class="user-data-div">
+          <h5 class="border-bottombar-2">System</h5>
+          <p>Browser</p>
+          <p>OS</p>
+          <p>More</p>
+        </div>
+        <div class="user-data-div">
+          <h5 class="border-bottombar-3">Target</h5>
+          <p>Users</p>
+          <p>Active</p>
+          <p>Geo</p>
+          <p>Interests</p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-footer">
+      <h4>FOOTER</h4>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+  </div>
+  </body>
+</html>
+
+<!-- Place your kit's code here -->
+<!-- <script src="https://kit.fontawesome.com/31a989a7bd.js" crossorigin="anonymous"></script> -->
