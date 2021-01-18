@@ -18,12 +18,9 @@
 .menu-button {
   color: white;
   background-color: transparent;
-
   padding: 8px 16px;
   float: left;
-
   border: none;
-
   cursor: pointer;
   text-transform: none;
   font: inherit;
@@ -59,14 +56,11 @@
 }
 
 .first-container {
-  /* background-color: red; */
   display: flex;
-  /* height: 1000px; */
   flex-direction: column;
 }
 .container-div-1 {
   background-color: white;
-  /* height: 1000px; */
   flex: 1.5;
   z-index: 3;
   color: black;
@@ -78,8 +72,6 @@
   width: 288;
 }
 .container-div-2 {
-  background-color: rgb(231, 228, 228);
-  height: 1000px;
   flex: 8;
 }
 
@@ -130,7 +122,6 @@
   border: none;
   display: block;
   outline: 0;
-  /* align-items: center; */
   overflow: hidden;
   text-decoration: none;
   color: inherit;
@@ -161,34 +152,20 @@
 .lis-a-2 {
   width: 100%;
   display: block;
-  padding: 8px 16px;
-  text-align: left;
-  border: none;
-  white-space: normal;
-  float: none;
-  outline: 0;
   color: #fff;
   background-color: #2196f3;
-  padding: 8px 16px;
-  overflow: hidden;
+  padding: 4px 16px;
   text-decoration: none;
   cursor: pointer;
+  font-size: 14px;
 }
 
 .ancor-list {
   color: rgb(63, 61, 61);
-
-  width: 100%;
   display: block;
-  padding: 8px 16px;
-  text-align: left;
-  border: none;
-  white-space: normal;
-  float: none;
-  outline: 0;
-  overflow: hidden;
   text-decoration: none;
   cursor: pointer;
+  font-size: 14px;
   padding: 0px 16px;
 }
 
@@ -206,17 +183,11 @@
 }
 
 .container-div-2 {
-  margin-left: 275px;
   margin-top: 43px;
   transition: margin-left 0.4s;
   color: #000;
 }
-@media (max-width: 992px) {
-  .container-div-2 {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-}
+
 .container-2-header {
   padding-top: 22px;
   padding: 0.01em 16px;
@@ -268,10 +239,10 @@
   flex-direction: column;
 }
 .detail-container {
-  padding: 0 8px;
   float: left;
   color: #000;
   width: 100%;
+  padding-right: 1%;
 }
 
 @media (min-width: 601px) {
@@ -358,10 +329,9 @@
 .main-panel-div {
   margin-top: 16px;
   margin-bottom: 16px;
-  padding: 0.01em 16px;
+  padding: 0.01em 9px;
   color: #000;
   font-family: "raleway", sans-serif;
-  margin-left: 275px;
   display: flex;
 }
 .map-img-div {
@@ -385,12 +355,10 @@
   margin: 0 -16px;
   padding: 0 8px;
   color: #000;
-  /* padding-right: 30px; */
   padding-left: 18px;
 }
 @media (max-width: 992px) {
   .main-panel-div {
-    margin-left: 0 !important;
     flex-direction: column;
   }
 }
@@ -541,14 +509,13 @@
   padding: 0.01 16px;
   color: #000;
   font-family: "Raleway", sans-serif;
-  margin-left: 286px;
   padding-right: 1%;
   font-size: 15px;
+  margin-left: 10px;
 }
 .stats-container h5 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  /* margin: 10px; */
   font-size: 18px;
   color: #000;
 }
@@ -579,16 +546,9 @@
   text-align: center;
 }
 
-@media (max-width: 992px) {
-  .stats-container {
-    margin-left: 18px;
-  }
-}
-
 .Countries-name {
-  color: #000;
-  margin-left: 285px;
   padding-right: 1%;
+  margin-left: 10px;
 }
 
 .tb-class {
@@ -633,13 +593,6 @@
   color: #000;
   font-size: 15px;
 }
-
-@media (max-width: 992px) {
-  .Countries-name {
-    margin-left: 18px;
-  }
-}
-
 .button-class {
   color: #fff;
   background-color: #616161;
@@ -658,7 +611,7 @@
 
 .user-container {
   color: #000;
-  margin-left: 285px;
+  margin-left: 10px;
   padding-right: 1%;
 }
 .user-container h5 {
@@ -698,14 +651,9 @@
   color: #000;
   padding-left: 14px;
 }
-@media (max-width: 992px) {
-  .user-container {
-    margin-left: 18px;
-  }
-}
 .user-comment-div {
   color: #000;
-  margin-left: 285px;
+  margin-left: 10px;
   padding-top: 20px;
 }
 .user-comment-div h4 {
@@ -752,11 +700,6 @@
   opacity: 0.6;
   color: #000;
 }
-@media (max-width: 992px) {
-  .user-comment-div {
-    margin-left: 18px;
-  }
-}
 
 .text-container h4 {
   font-size: 20px;
@@ -764,7 +707,7 @@
   margin: 10px 0;
 }
 .text-container p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .user-comment-div h3 {
@@ -774,18 +717,10 @@
 }
 
 .user-interview-container {
-  /* color: white; */
   background-color: #616161;
   padding-top: 32px;
   padding-bottom: 32px;
-  /* padding: 0.01em 16px; */
   font-family: "Raleway", sans-serif;
-  margin-left: 274px;
-}
-@media (max-width: 992px) {
-  .user-interview-container {
-    margin-left: 0px;
-  }
 }
 .interview-row {
   color: white;
@@ -842,7 +777,6 @@
 .footer-footer {
   padding: 0.01px 16px;
   display: block;
-  margin-left: 274px;
 }
 .footer-footer h4 {
   font-weight: 400;
@@ -858,8 +792,22 @@ a {
   color: inherit;
 }
 
+.font {
+  padding-top: 21px;
+  font-size: 43px;
+}
+
+.super-container {
+  margin-left: 285px;
+  padding-right: 1%;
+  margin-top: 43px;
+  transition: margin-left 0.4s;
+  color: #000;
+  flex: 8;
+}
+
 @media (max-width: 992px) {
-  .footer-footer {
+  .super-container {
     margin-left: 0px;
   }
 }
